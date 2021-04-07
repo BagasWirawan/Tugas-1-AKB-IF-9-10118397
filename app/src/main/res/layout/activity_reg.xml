@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <!--
+   NIM         : 10118397
+   Nama        : Bagas Wirawan
+   Kelas       : IF 9
+   Pengerjaan  : 05/04/2021
+   -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:hint="Username"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:hint="Pin"
+            android:inputType="numberPassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:hint="Confirm Pin"
+            android:inputType="numberPassword"
+            />
+
+
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/login"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="Register"
+            />
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/batal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/login"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginTop="18dp"
+            android:text="CANCEL"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
